@@ -14,6 +14,7 @@ Contains sentence-level BLEU scores computed for each individual translation sam
 - `bp`: Brevity penalty
 - `sys_len`: Prediction length
 - `ref_len`: Reference length
+(Metrics were gathered from: https://huggingface.co/spaces/evaluate-metric/sacrebleu)
 
 ### Mean BLEU Score per File
 Contains the mean BLEU scores computed across all samples in each model-specific JSONL file, providing an overall quality assessment per model, translation method, and language pair.
