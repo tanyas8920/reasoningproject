@@ -13,7 +13,8 @@ Contains sentence-level BLEU scores computed for each individual translation sam
 - `precisions`: Precisions
 - `bp`: Brevity penalty
 - `sys_len`: Prediction length
-- `ref_len`: Reference length   
+- `ref_len`: Reference length
+
 (Metrics were gathered from: https://huggingface.co/spaces/evaluate-metric/sacrebleu)
 
 ### Mean BLEU Score per File
